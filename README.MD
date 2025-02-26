@@ -1,6 +1,6 @@
 # QuantumNotes
 
-Welcome to **QuantumNotes**, a secure note-taking application with custom encryption, a modern graphical interface, and advanced features. This project was designed to provide an intuitive writing experience, supporting themes, text formatting, note import/export, and encryption based on a Feistel cipher using the `hashlib` library.
+Welcome to **QuantumNotes**, a standout note-taking application that combines cutting-edge encryption, an elegant graphical interface, and a seamless user experience. Unlike typical note apps, QuantumNotes offers a unique blend of security, aesthetics, and functionality—powered by a custom Feistel cipher with SHA-256, a PyQt5-driven interface inspired by the golden ratio, and advanced features like entropy-based password validation and versatile import/export options. Designed for privacy-conscious users and tech enthusiasts alike, it redefines secure note-taking.
 
 ## Latest Release: QuantumNotes v1.0.0 - First Release
 
@@ -20,14 +20,16 @@ This is the inaugural release of QuantumNotes, marking its debut as a fully func
 
 ## Main Features
 
-- **Secure Encryption**: Uses a custom Feistel cipher implementation with subkeys derived from a master password via SHA-256.
-- **Note Management**: Create, edit, save, and delete notes with support for rich text formatting (bold, italic, underline).
-- **Graphical Interface**: Built with PyQt5, featuring a toolbar, note list, and rich text editor.
-- **Themes**: Toggle between light and dark themes with gradients inspired by the golden ratio.
-- **Import and Export**: Supports encrypted notes (`.qnt`), plain text (`.txt`), and compressed files (`.zip`/`.rar`).
-- **Authentication**: Login with a master password, including entropy analysis for security.
-- **Auto-Save**: Automatically saves notes every 30 seconds.
-- **Logging**: Activities are logged in a hidden file for monitoring and debugging.
+What sets QuantumNotes apart:
+
+- **Unmatched Security**: Employs a custom Feistel cipher with 16 subkeys derived from your master password via SHA-256, offering encryption that’s both robust and tailored—unlike generic solutions used by mainstream apps.
+- **Elegant Note Management**: Create, edit, save, and delete notes with rich text formatting (bold, italic, underline), all within a visually harmonious interface designed using the golden ratio and Fibonacci sequence for a uniquely pleasing experience.
+- **Sophisticated Interface**: Built with PyQt5, featuring a sleek toolbar, an interactive note list, and a rich text editor—elevating note-taking beyond basic functionality into a modern, intuitive workflow.
+- **Dynamic Themes**: Switch between light and dark modes with gradient designs inspired by mathematical beauty, providing a customizable look that’s rare in note-taking tools.
+- **Versatile Import/Export**: Supports encrypted (`.qnt`), plain text (`.txt`), and compressed (`.zip`/`.rar`) formats, giving you flexible control over your data—ideal for backups or sharing securely.
+- **Smart Authentication**: Requires a master password with real-time entropy analysis, rejecting weak passwords (entropy < 20) to ensure your notes stay protected, a feature not commonly found in similar apps.
+- **Effortless Auto-Save**: Saves your work every 30 seconds, preventing data loss without interrupting your flow—a subtle but critical advantage.
+- **Transparent Logging**: Tracks activities in a hidden log file (`~/.quantum_notes/quantum_notes.log`), offering insight for debugging or monitoring—an uncommon level of transparency for power users.
 
 ## Requirements
 
