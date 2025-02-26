@@ -2,10 +2,26 @@
 
 Welcome to **QuantumNotes**, a secure note-taking application with custom encryption, a modern graphical interface, and advanced features. This project was designed to provide an intuitive writing experience, supporting themes, text formatting, note import/export, and encryption based on a Feistel cipher using the `hashlib` library.
 
+## Latest Release: QuantumNotes v1.0.0 - First Release
+
+**Released by**: [@SamuelSilvass](https://github.com/SamuelSilvass)  
+**Date**: February 25, 2025 (latest as of this update)  
+**Commit Hash**: `1047627`  
+**Assets**:  
+- `QuantumNotesInstaller.exe` (36.9 MB)  
+- Source code (zip)  
+- Source code (tar.gz)  
+
+This is the inaugural release of QuantumNotes, marking its debut as a fully functional encrypted notes app built in Python with PyQt5.
+
+### What's New in v1.0.0
+- Initial stable version with core functionalities.
+- Released with 3 commits to the `main` branch.
+
 ## Main Features
 
 - **Secure Encryption**: Uses a custom Feistel cipher implementation with subkeys derived from a master password via SHA-256.
-- **Note Management**: Create, edit, save, and delete notes with support for text formatting (bold, italic, underline).
+- **Note Management**: Create, edit, save, and delete notes with support for rich text formatting (bold, italic, underline).
 - **Graphical Interface**: Built with PyQt5, featuring a toolbar, note list, and rich text editor.
 - **Themes**: Toggle between light and dark themes with gradients inspired by the golden ratio.
 - **Import and Export**: Supports encrypted notes (`.qnt`), plain text (`.txt`), and compressed files (`.zip`/`.rar`).
